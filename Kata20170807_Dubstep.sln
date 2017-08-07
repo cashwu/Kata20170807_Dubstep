@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata20170807_Dubstep", "Kata20170807_Dubstep\Kata20170807_Dubstep.csproj", "{F5CAF1DF-D3DA-453D-90C7-F02608852398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CAF1DF-D3DA-453D-90C7-F02608852398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CAF1DF-D3DA-453D-90C7-F02608852398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CAF1DF-D3DA-453D-90C7-F02608852398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CAF1DF-D3DA-453D-90C7-F02608852398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9D80EDA-9C5B-46D2-B9A7-55DE3205B475}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = b036dc1a-c1e7-4b47-b7a5-23258b95e074
+	EndGlobalSection
+EndGlobal

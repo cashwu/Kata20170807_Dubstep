@@ -42,7 +42,7 @@ namespace Kata20170807_Dubstep
     {
         public string SongDecoder(string input)
         {
-            return string.Join(" ", input.Replace("WUB", " ").Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries));
+            return string.Join(" ", input.Split(new[] { "WUB" }, StringSplitOptions.RemoveEmptyEntries));
         }
     }
 }

@@ -19,9 +19,15 @@ namespace Kata20170807_Dubstep
         }
 
         [TestMethod]
-        public void input_AWUBBWUB_should_return_A_B()
+        public void input_WUBWUBABCWUB_should_return_ABC()
         {
-            DubstepSongDecoderShouldBe("A B", "AWUBBWUB");
+            DubstepSongDecoderShouldBe("ABC", "WUBWUBABCWUB");
+        }
+
+        [TestMethod]
+        public void input_RWUBWUBWUBLWUB_should_return_R_L()
+        {
+            DubstepSongDecoderShouldBe("R L", "RWUBWUBWUBLWUB");
         }
 
         private static void DubstepSongDecoderShouldBe(string expected, string input)
@@ -36,7 +42,7 @@ namespace Kata20170807_Dubstep
     {
         public string SongDecoder(string input)
         {
-            return input.Replace("WUB", " ").Trim();
+            return string.Join(" ", input.Replace("WUB", " ").Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries));
         }
     }
 }

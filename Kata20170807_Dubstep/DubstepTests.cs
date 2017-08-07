@@ -18,6 +18,12 @@ namespace Kata20170807_Dubstep
             DubstepSongDecoderShouldBe("B", "BWUB");
         }
 
+        [TestMethod]
+        public void input_AWUBBWUB_should_return_A_B()
+        {
+            DubstepSongDecoderShouldBe("A B", "AWUBBWUB");
+        }
+
         private static void DubstepSongDecoderShouldBe(string expected, string input)
         {
             var dubstep = new Dubstep();
@@ -30,7 +36,7 @@ namespace Kata20170807_Dubstep
     {
         public string SongDecoder(string input)
         {
-            return input.Replace("WUB", "");
+            return input.Replace("WUB", " ").Trim();
         }
     }
 }
